@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+body {
+  font-family: Montserrat;
+}
+.hero {
+  position: fixed;
+  margin: auto;
+  height: 200px;
+  width: 400px;
+  top: 40%;
+  left: 60%;
+  margin-left: -300px;
+  font-size: 13px;
+  /* margin-right: 100px; */
+  /* transform: translate(-50%,-50%); */
+}
+header {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(getty-rf_running-sprint-man-track-1280_0.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+h1 {
+  width: 400px;
+  font-size: 27px;
+  color: white;
+}
+h4 {
+  margin-top: 10px;
+  font-size: 13px;
+  color: white;
+  font-weight: lighter;
+}
+.main-nav {
+  list-style: none;
+  float: right;
+  margin-top: 40px;
+}
+.main-nav li {
+  display: inline-block;
+  margin-left: 50px;
+}
+.main-nav li a {
+  color: white;
+  text-decoration: none;
+  font-size: 100%;
+  font-weight: 200;
+}
